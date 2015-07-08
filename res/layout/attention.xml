@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewAttentionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="蒙特利爾智能測驗"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/textViewAttentionSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="專注檢測"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="32sp" />
+
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="wrap_content"
+            android:layout_height="4dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/black"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:paddingTop="60dp" />
+
+        <TextView
+            android:id="@+id/textViewAttention"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="施測者讀出下方數字(每秒讀一個)"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="32sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textViewAttention1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21857"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxA1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="受測者可順序背出數字"
+                android:textSize="32sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textViewA2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="742"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxA2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:text="受測者可倒序背出數字"
+                android:textSize="32sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/viewLine1"
+            android:layout_width="wrap_content"
+            android:layout_height="4dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="40dp"
+            android:background="@android:color/black"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:paddingTop="60dp" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textViewA33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="施測者讀到1時，受測者拍一下桌面"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="32sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textViewA3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="錯誤兩個或以上不得分"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="32sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textViewNum111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="621398117256121111719"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxRed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="可得分"
+                android:textSize="32sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/viewLine2"
+            android:layout_width="wrap_content"
+            android:layout_height="4dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="40dp"
+            android:background="@android:color/black"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:paddingTop="60dp" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textViewA55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="從100開始連續減7，正確打勾"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="32sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/checkBox93"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="93"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBox86"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="86"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBox79"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="79"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBox72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="72"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBox65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="65"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/buttonAttentionOK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="結  束"
+                android:textSize="32sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
