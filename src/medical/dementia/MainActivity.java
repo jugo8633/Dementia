@@ -1,5 +1,7 @@
 package medical.dementia;
 
+
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,7 +22,8 @@ public class MainActivity extends Activity {
 
 	private ViewPager mViewPager;
 	ArrayList<View> viewList;
-
+	private FingerPaintView			fingerPaintView				= null;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -53,7 +56,9 @@ public class MainActivity extends Activity {
 		viewList.add(vLanguage);
 		viewList.add(vAbstraction);
 		viewList.add(vLocation);
-
+//		fingerPaintView = (FingerPaintView) vSequence.findViewById(R.id.fingerPaintView1);
+//		fingerPaintView.setVisibility(View.VISIBLE);
+//		fingerPaintView.setIsCapturing(true);
 		mViewPager = (ViewPager) findViewById(R.id.viewpager);
 		mViewPager.setOnTouchListener(new OnTouchListener() {
 			@Override

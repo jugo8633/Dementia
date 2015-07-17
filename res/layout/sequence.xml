@@ -6,8 +6,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:gravity="center"
         android:orientation="vertical" >
 
@@ -40,6 +38,15 @@
             android:paddingRight="60dp"
             android:paddingTop="60dp" />
 
+        <medical.dementia.FingerPaintView
+            android:id="@+id/fingerPaintView1"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/sequence"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
         <TextView
             android:id="@+id/textViewVDes"
             android:layout_width="wrap_content"
@@ -48,13 +55,6 @@
             android:text="請按順序點選"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textSize="32sp" />
-
-        <ImageView
-            android:id="@+id/imageViewSequence"
-            android:layout_width="match_parent"
-            android:layout_height="350dp"
-            android:layout_marginTop="40dp"
-            android:src="@drawable/sequence" />
 
         <LinearLayout
             android:layout_width="match_parent"

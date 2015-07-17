@@ -40,13 +40,13 @@
             android:paddingRight="60dp"
             android:paddingTop="60dp" />
 
-        <ImageView
-            android:id="@+id/imageViewClock"
+        <medical.dementia.FingerPaintView
+            android:id="@+id/fingerPaintView3"
             android:layout_width="400dp"
             android:layout_height="400dp"
-            android:layout_marginBottom="80dp"
-            android:layout_marginTop="80dp"
-            android:src="@drawable/clock" />
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/clock" />
 
         <LinearLayout
             android:layout_width="match_parent"

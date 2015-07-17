@@ -2,7 +2,7 @@ package medical.dementia;
 
 
 import java.io.FileOutputStream;
-
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
@@ -28,7 +28,7 @@ public class FingerPaintView extends View
 	private boolean				mbEraser		= false;
 	private float				mX, mY;
 	private static final float	TOUCH_TOLERANCE	= 4;
-	private boolean				mbCapturing		= false;
+	private boolean				mbCapturing		= true;
 	private Paint				mpaintEraser	= null;
 	private String				mstrBackground	= null;
 	private String				mstrText		= null;
@@ -193,6 +193,7 @@ public class FingerPaintView extends View
 		mbEraser = bEraser;
 	}
 
+	@SuppressLint("NewApi")
 	public void setBackground(String strImagePath)
 	{
 		mstrBackground = strImagePath;
